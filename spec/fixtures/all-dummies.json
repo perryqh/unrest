@@ -1,0 +1,22 @@
+{
+  "persistent_object_dummies": [
+    {
+      "uid": "http://0.0.0.0:5555/api/v0/persistent_object_dummies/dum1",
+      "urn": "dum1",
+      "foo": "bar",
+      "state": "started",
+      "created_at": "2014-11-10T14:57:49.216-08:00",
+      "updated_at": "2014-11-10T15:12:23.111-08:00",
+      "message": null
+    },
+    {
+      "uid": "http://0.0.0.0:5555/api/v0/persistent_object_dummies/dum2",
+      "urn": "dum2",
+      "foo": "baz",
+      "state": "finished",
+      "created_at": "2015-11-10T14:57:49.216-08:00",
+      "updated_at": "2015-11-10T15:12:23.111-08:00",
+      "message": "good one"
+    }
+  ]
+}

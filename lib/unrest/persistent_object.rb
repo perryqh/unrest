@@ -17,6 +17,11 @@ module Unrest
         response = fetch_json "#{Config[:base_uri]}/#{pluralized_resource_name}/#{id}"
         self.new response[singularized_resource_name]
       end
+
+      def all(options={})
+        response = fetch_json "#{Config[:base_uri]}/#{pluralized_resource_name}", options
+        response[pluralized_resource_name].collect { |hash| new(hash) }
+      end
     end
   end
 end
